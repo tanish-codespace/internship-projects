@@ -1,0 +1,10 @@
+signenv/
+venv/
+.venv/
+env/
+__pycache__/
+.ipynb_checkpoints/
+*.dll
+*.pyd
+.DS_Store
+Thumbs.db

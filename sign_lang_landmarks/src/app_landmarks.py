@@ -6,7 +6,7 @@ import mediapipe as mp
 
 MODEL_PATH = "sign_model.pkl"
 CONF = 0.60
-START_HOUR, END_HOUR = 0, 22   # set 0 and 24 to test anytime
+START_HOUR, END_HOUR = 18, 22  # set 0 and 24 to test anytime
 EMO = {"Hello":"👋","Yes":"✊","No":"👌","ILoveYou":"🤟","Water":"💧"}
 
 st.set_page_config(page_title="Sign Language Detector", page_icon="🤟", layout="wide")
